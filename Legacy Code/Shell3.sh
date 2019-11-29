@@ -37,7 +37,7 @@ do
     clear
 
     echo "Matriks Satu"
-    echo -e " ${satu[0]} ${satu[1]} \n"
+    echo -e " ${satu[0]} ${satu[1]} "
     echo -e " ${satu[2]} ${satu[3]} \n"
     
     echo ""
