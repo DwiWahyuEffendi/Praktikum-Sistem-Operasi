@@ -1,5 +1,0 @@
-mkdir ‘nama_direktori’  
-cd ‘nama_direktori’ 
-ls 
-cat ‘nama_berkas’  
-nano ‘nama_berkas_yang_akan_disimpan.txt’ 
