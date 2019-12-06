@@ -1,0 +1,20 @@
+sudo adduser wahid
+sudo adduser rahman
+sudo adduser kholil
+sudo addgroup satu
+sudo addgroup dua
+sudo adduser wahid dua
+sudo adduser rahman satu
+sudo adduser kholil dua
+nano filesatu.sh
+nano filedua.sh
+ls -l filesatu.sh
+ls -l filedua.sh
+sudo chown rahman filesatu.sh
+sudo chown kholil filedua.sh
+su rahman
+chmod 704 filesatu.sh
+ls -l filesatu.sh
+su kholil
+chmod 640 filedua.sh
+ls -l filedua.sh
